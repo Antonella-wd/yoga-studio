@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none; 
+         
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1280px; 
+    margin: auto;  
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px; 
+ }
+
+nav ul li a {
+    color: black; 
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin: 20px; 
+    position: relative;
+    top: 15px;
+     
+}
+
+
+
+header {
+    background: url(logo.jpg);
+    background-size: cover;
+    height: 60vh; 
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 0px;
+    font-weight: bolder;
+   }
+
+.titular {
+    position: absolute;
+    top: 50px;  
+    left: 15px;
+}
+.titular p {
+    text-align: inherit;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white; 
+    position: absolute; 
+    top: 120px; 
+    left: 30px;
+    }
+
+.titular a {
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 15px 30px;
+    position: absolute; 
+    top: 230px; 
+    left: 30px;
+}
+
+h2 {
+    text-align: center; 
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 60px auto;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+.contenedor-programs {
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 40px; 
+       
+}
+
+.program {
+    width: 30%;
+}
+
+.program img {
+    width: 100%; 
+}
+
+#about_us .contenedor{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px; 
+}
+
+#about_us p {
+    text-align: center;
+}
+
+#about_us img {
+    width: 100%;
+}
+
+#about_us .texto {
+    width: 50% ;
+}
+
+#numeros {
+    background: url(final.jpg);
+    color: black;
+    margin-top: 70px;
+    padding: 60px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#numeros .contenedor {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.numero h2 {
+    font-size: 180px;
+    margin: 0; 
+    height: 200px; 
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
